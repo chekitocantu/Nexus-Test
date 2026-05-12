@@ -523,7 +523,7 @@ function checkAnswer() {
   document.getElementById("checkBtn").style.display = "none";
 
   const nextBtn = document.getElementById("nextBtn");
-  nextBtn.style.display = "";
+  nextBtn.style.display = "block";
   const isLast = currentIdx === QUESTIONS.length - 1;
   nextBtn.textContent = isLast ? "Ver resultados →" : "Siguiente →";
 
